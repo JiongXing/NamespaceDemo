@@ -8,6 +8,8 @@
 
 import Foundation
 
+extension String: NamespaceWrappable {}
+
 extension TypeWrapperProtocol where WrappedType == String {
 
     /// 把自身作为日志打印

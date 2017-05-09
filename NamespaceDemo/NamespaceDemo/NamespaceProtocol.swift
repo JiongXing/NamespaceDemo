@@ -8,8 +8,6 @@
 
 import UIKit
 
-// MARK: - 协议定义
-
 /// 类型协议
 protocol TypeWrapperProtocol {
     associatedtype WrappedType
@@ -40,9 +38,3 @@ extension NamespaceWrappable {
         return NamespaceWrapper.self
     }
 }
-
-// MARK: - 扩展类
-
-extension UIColor: NamespaceWrappable {}
-
-extension String: NamespaceWrappable {}

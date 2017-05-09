@@ -8,6 +8,8 @@
 
 import UIKit
 
+extension UIColor: NamespaceWrappable {}
+
 extension TypeWrapperProtocol where WrappedType == UIColor {
     
     /// 用自身颜色生成UIImage
